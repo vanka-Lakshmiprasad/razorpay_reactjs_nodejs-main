@@ -1,0 +1,55 @@
+.IMGS{
+  padding-left: 500px;
+  padding-top: 60px;
+}
+.inputall{
+  background-color: aqua;
+}
+.product {
+  margin: 20px;
+  border: 2px solid black;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 25px;
+  border-color: blue;
+  font-weight: 500;
+  
+}
+.requi::after {
+  content: '*';
+  color: red;
+  font-size: larger;
+}
+
+
+
+button {
+  width: 100px;
+  background: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+input[type=number]:focus {
+  background-color: lightblue;
+}
+input[type=Email]:focus {
+  background-color: lightblue;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+
